@@ -24,7 +24,6 @@ class Solution:
         x2 = l2
         sum_value = x1.val + x2.val
         overflow, val = int(sum_value / 10), int(sum_value % 10)
-        print(overflow, val)
         last = ListNode(val)
         cur = last
         x1, x2 = l1.next, l2.next
@@ -50,10 +49,4 @@ class Solution:
                 break
                 
         return last
-            
-            
-            
-            
 
-        
-        return last
