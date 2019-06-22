@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Python
-Update time:  2019-06-22 20:30:05
+Update time:  2019-06-22 20:31:43
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
@@ -8,7 +8,7 @@ while there are **157** problems still locked.
 
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
 
-If you have any question, please give me an [issue](https://github.com/bonfy/leetcode/issues).
+If you have any question, please give me an [issue](https://github.com/bongster/leetcode/issues).
 
 If you are loving solving problems in leetcode, please contact me to enjoy it together!
 
