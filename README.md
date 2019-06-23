@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with Python3
-Update time:  2019-06-22 22:23:14
+Update time:  2019-06-23 20:43:18
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
-I have solved **10   /   1031** problems
+I have solved **11   /   1035** problems
 while there are **157** problems still locked.
 
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
@@ -24,7 +24,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |6|[zigzag-conversion](https://leetcode.com/problems/zigzag-conversion)||[:memo:](https://leetcode.com/articles/zigzag-conversion/)|Medium|
 |7|[reverse-integer](https://leetcode.com/problems/reverse-integer)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0007-reverse-integer/reverse-integer.py)|[:memo:](https://leetcode.com/articles/reverse-integer/)|Easy|
 |8|[string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)|||Medium|
-|9|[palindrome-number](https://leetcode.com/problems/palindrome-number)||[:memo:](https://leetcode.com/articles/palindrome-number/)|Easy|
+|9|[palindrome-number](https://leetcode.com/problems/palindrome-number)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0009-palindrome-number/palindrome-number.py)|[:memo:](https://leetcode.com/articles/palindrome-number/)|Easy|
 |10|[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)||[:memo:](https://leetcode.com/articles/regular-expression-matching/)|Hard|
 |11|[container-with-most-water](https://leetcode.com/problems/container-with-most-water)||[:memo:](https://leetcode.com/articles/container-with-most-water/)|Medium|
 |12|[integer-to-roman](https://leetcode.com/problems/integer-to-roman)|||Medium|
@@ -1026,7 +1026,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1119|[robot-bounded-in-circle](https://leetcode.com/problems/robot-bounded-in-circle)|||Easy|
 |1120|[flower-planting-with-no-adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent)|||Easy|
 |1121|[partition-array-for-maximum-sum](https://leetcode.com/problems/partition-array-for-maximum-sum)|||Medium|
-|1122|[longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring)|||Hard|
+|1122|[longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring)||[:memo:](https://leetcode.com/articles/longest-duplicate-substring/)|Hard|
 |1127|[last-stone-weight](https://leetcode.com/problems/last-stone-weight)|||Easy|
 |1128|[remove-all-adjacent-duplicates-in-string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)|||Easy|
 |1129|[longest-string-chain](https://leetcode.com/problems/longest-string-chain)|||Medium|
@@ -1047,3 +1047,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1169|[largest-values-from-labels](https://leetcode.com/problems/largest-values-from-labels)|||Medium|
 |1170|[shortest-common-supersequence](https://leetcode.com/problems/shortest-common-supersequence)|||Hard|
 |1171|[shortest-path-in-binary-matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix)|||Medium|
+|1183|[statistics-from-a-large-sample](https://leetcode.com/problems/statistics-from-a-large-sample)|||Medium|
+|1184|[car-pooling](https://leetcode.com/problems/car-pooling)|||Medium|
+|1185|[find-in-mountain-array](https://leetcode.com/problems/find-in-mountain-array)|||Hard|
+|1188|[brace-expansion-ii](https://leetcode.com/problems/brace-expansion-ii)|||Hard|
