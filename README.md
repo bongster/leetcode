@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with Python3
-Update time:  2019-06-30 16:40:26
+Update time:  2019-06-30 22:08:05
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
-I have solved **21   /   1043** problems
+I have solved **22   /   1043** problems
 while there are **161** problems still locked.
 
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
@@ -204,7 +204,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |202|[happy-number](https://leetcode.com/problems/happy-number)|||Easy|
 |203|[remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0203-remove-linked-list-elements/remove-linked-list-elements.py)||Easy|
 |204|[count-primes](https://leetcode.com/problems/count-primes)|||Easy|
-|205|[isomorphic-strings](https://leetcode.com/problems/isomorphic-strings)|||Easy|
+|205|[isomorphic-strings](https://leetcode.com/problems/isomorphic-strings)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0205-isomorphic-strings/isomorphic-strings.py)||Easy|
 |206|[reverse-linked-list](https://leetcode.com/problems/reverse-linked-list)||[:memo:](https://leetcode.com/articles/reverse-linked-list/)|Easy|
 |207|[course-schedule](https://leetcode.com/problems/course-schedule)|||Medium|
 |208|[implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree)||[:memo:](https://leetcode.com/articles/implement-trie-prefix-tree/)|Medium|
