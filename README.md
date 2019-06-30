@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with Python3
-Update time:  2019-06-30 22:08:05
+Update time:  2019-06-30 23:06:42
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
-I have solved **22   /   1043** problems
+I have solved **23   /   1043** problems
 while there are **161** problems still locked.
 
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
@@ -61,7 +61,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |43|[multiply-strings](https://leetcode.com/problems/multiply-strings)|||Medium|
 |44|[wildcard-matching](https://leetcode.com/problems/wildcard-matching)||[:memo:](https://leetcode.com/articles/wildcard-matching/)|Hard|
 |45|[jump-game-ii](https://leetcode.com/problems/jump-game-ii)|||Hard|
-|46|[permutations](https://leetcode.com/problems/permutations)||[:memo:](https://leetcode.com/articles/permutations/)|Medium|
+|46|[permutations](https://leetcode.com/problems/permutations)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0046-permutations/permutations.py)|[:memo:](https://leetcode.com/articles/permutations/)|Medium|
 |47|[permutations-ii](https://leetcode.com/problems/permutations-ii)|||Medium|
 |48|[rotate-image](https://leetcode.com/problems/rotate-image)||[:memo:](https://leetcode.com/articles/rotate-image/)|Medium|
 |49|[group-anagrams](https://leetcode.com/problems/group-anagrams)||[:memo:](https://leetcode.com/articles/group-anagrams/)|Medium|
