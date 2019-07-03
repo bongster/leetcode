@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with Python3
-Update time:  2019-07-03 19:12:05
+Update time:  2019-07-03 20:47:50
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
-I have solved **27   /   1043** problems
+I have solved **28   /   1043** problems
 while there are **161** problems still locked.
 
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
@@ -82,7 +82,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |64|[minimum-path-sum](https://leetcode.com/problems/minimum-path-sum)||[:memo:](https://leetcode.com/articles/minimum-path-sum/)|Medium|
 |65|[valid-number](https://leetcode.com/problems/valid-number)|||Hard|
 |66|[plus-one](https://leetcode.com/problems/plus-one)|||Easy|
-|67|[add-binary](https://leetcode.com/problems/add-binary)|||Easy|
+|67|[add-binary](https://leetcode.com/problems/add-binary)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0067-add-binary/add-binary.py)||Easy|
 |68|[text-justification](https://leetcode.com/problems/text-justification)|||Hard|
 |69|[sqrtx](https://leetcode.com/problems/sqrtx)|||Easy|
 |70|[climbing-stairs](https://leetcode.com/problems/climbing-stairs)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0070-climbing-stairs/climbing-stairs.py)|[:memo:](https://leetcode.com/articles/climbing-stairs/)|Easy|
