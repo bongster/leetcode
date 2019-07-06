@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with Python3
-Update time:  2019-07-03 20:47:50
+Update time:  2019-07-06 22:28:27
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
-I have solved **28   /   1043** problems
+I have solved **30   /   1043** problems
 while there are **161** problems still locked.
 
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
@@ -23,7 +23,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |5|[longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0005-longest-palindromic-substring/longest-palindromic-substring.py)|[:memo:](https://leetcode.com/articles/longest-palindromic-substring/)|Medium|
 |6|[zigzag-conversion](https://leetcode.com/problems/zigzag-conversion)||[:memo:](https://leetcode.com/articles/zigzag-conversion/)|Medium|
 |7|[reverse-integer](https://leetcode.com/problems/reverse-integer)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0007-reverse-integer/reverse-integer.py)|[:memo:](https://leetcode.com/articles/reverse-integer/)|Easy|
-|8|[string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)|||Medium|
+|8|[string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0008-string-to-integer-atoi/string-to-integer-atoi.py)||Medium|
 |9|[palindrome-number](https://leetcode.com/problems/palindrome-number)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/0009-palindrome-number/palindrome-number.py)|[:memo:](https://leetcode.com/articles/palindrome-number/)|Easy|
 |10|[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)||[:memo:](https://leetcode.com/articles/regular-expression-matching/)|Hard|
 |11|[container-with-most-water](https://leetcode.com/problems/container-with-most-water)||[:memo:](https://leetcode.com/articles/container-with-most-water/)|Medium|
@@ -269,7 +269,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |268|[missing-number](https://leetcode.com/problems/missing-number)||[:memo:](https://leetcode.com/articles/missing-number/)|Easy|
 |269|[alien-dictionary](https://leetcode.com/problems/alien-dictionary)|:lock:||Hard|
 |270|[closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value)|:lock:||Easy|
-|271|[encode-and-decode-strings](https://leetcode.com/problems/encode-and-decode-strings)|:lock:||Medium|
+|271|[encode-and-decode-strings](https://leetcode.com/problems/encode-and-decode-strings)|:lock:|[:memo:](https://leetcode.com/articles/encode-and-decode-strings/)|Medium|
 |272|[closest-binary-search-tree-value-ii](https://leetcode.com/problems/closest-binary-search-tree-value-ii)|:lock:||Hard|
 |273|[integer-to-english-words](https://leetcode.com/problems/integer-to-english-words)||[:memo:](https://leetcode.com/articles/integer-to-english-words/)|Hard|
 |274|[h-index](https://leetcode.com/problems/h-index)||[:memo:](https://leetcode.com/articles/h-index/)|Medium|
@@ -1056,6 +1056,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1185|[find-in-mountain-array](https://leetcode.com/problems/find-in-mountain-array)|||Hard|
 |1188|[brace-expansion-ii](https://leetcode.com/problems/brace-expansion-ii)|||Hard|
 |1194|[path-in-zigzag-labelled-binary-tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree)|||Medium|
-|1195|[distribute-candies-to-people](https://leetcode.com/problems/distribute-candies-to-people)|||Easy|
+|1195|[distribute-candies-to-people](https://leetcode.com/problems/distribute-candies-to-people)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/1195-distribute-candies-to-people/distribute-candies-to-people.py)|[:memo:](https://leetcode.com/articles/distribute-candies-to-people/)|Easy|
 |1196|[filling-bookcase-shelves](https://leetcode.com/problems/filling-bookcase-shelves)|||Medium|
 |1197|[parsing-a-boolean-expression](https://leetcode.com/problems/parsing-a-boolean-expression)|||Hard|
