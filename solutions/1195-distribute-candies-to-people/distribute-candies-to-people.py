@@ -40,6 +40,7 @@
 # 	1 <= candies <= 10^9
 # 	1 <= num_people <= 1000
 #
+#
 
 
 class Solution:
