@@ -11,26 +11,19 @@
 
 # Definition for singly-linked list.
 # class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution:
-    def removeElements(self, head, val):
-        """
-        :type head: ListNode
-        :type val: int
-        :rtype: ListNode
-        """
-        while head is not None and head.val == val:
-            head = head.next
-        if head is None:
-            return head
-
-        cur = head
-        while cur.next is not None:
-            if cur.next.val == val:
-                cur.next = cur.next.next
+    def removeElements(self, head: ListNode, val: int) -> ListNode:
+        dummy_head = ListNode(-1)
+        dummy_head.next = head
+        
+        current_node = dummy_head
+        while current_node.next != None:
+            if current_node.next.val == val:
+                current_node.next = current_node.next.next
             else:
-                cur = cur.next
-        return head
+                current_node = current_node.next
+                
+        return dummy_head.next
