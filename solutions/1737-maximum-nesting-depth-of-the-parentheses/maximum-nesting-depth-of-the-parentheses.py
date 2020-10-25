@@ -10,7 +10,8 @@
 #
 #
 # 	depth("") = 0
-# 	depth(A + B) = max(depth(A), depth(B)), where A and B are VPS's
+# 	depth(C) = 0, where C is a string with a single character not equal to "(" or ")".
+# 	depth(A + B) = max(depth(A), depth(B)), where A and B are VPS's.
 # 	depth("(" + A + ")") = 1 + depth(A), where A is a VPS.
 #
 #
