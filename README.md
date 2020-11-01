@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with Python3
-Update time:  2020-11-01 14:39:33
+Update time:  2020-11-01 15:12:32
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
-I have solved **116   /   1496** problems
+I have solved **118   /   1496** problems
 while there are **235** problems still locked.
 
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
@@ -1508,7 +1508,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1752|[arithmetic-subarrays](https://leetcode.com/problems/arithmetic-subarrays)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/1752-arithmetic-subarrays/arithmetic-subarrays.py)||Medium|
 |1753|[path-with-minimum-effort](https://leetcode.com/problems/path-with-minimum-effort)||[:memo:](https://leetcode.com/articles/path-with-minimum-effort/)|Medium|
 |1760|[check-array-formation-through-concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/1760-check-array-formation-through-concatenation/check-array-formation-through-concatenation.py)|[:memo:](https://leetcode.com/articles/check-array-formation-through-concatenation/)|Easy|
-|1761|[count-sorted-vowel-strings](https://leetcode.com/problems/count-sorted-vowel-strings)||[:memo:](https://leetcode.com/articles/count-sorted-vowel-strings/)|Medium|
-|1762|[furthest-building-you-can-reach](https://leetcode.com/problems/furthest-building-you-can-reach)|||Medium|
+|1761|[count-sorted-vowel-strings](https://leetcode.com/problems/count-sorted-vowel-strings)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/1761-count-sorted-vowel-strings/count-sorted-vowel-strings.py)|[:memo:](https://leetcode.com/articles/count-sorted-vowel-strings/)|Medium|
+|1762|[furthest-building-you-can-reach](https://leetcode.com/problems/furthest-building-you-can-reach)|[Python3](https://github.com/bongster/leetcode/blob/master/solutions/1762-furthest-building-you-can-reach/furthest-building-you-can-reach.py)||Medium|
 |1768|[design-an-expression-tree-with-evaluate-function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function)|:lock:||Medium|
 |1774|[add-two-polynomials-represented-as-linked-lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists)|:lock:||Medium|
