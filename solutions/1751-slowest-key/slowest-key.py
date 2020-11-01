@@ -43,7 +43,7 @@
 # 	releaseTimes.length == n
 # 	keysPressed.length == n
 # 	2 <= n <= 1000
-# 	0 <= releaseTimes[i] <= 109
+# 	1 <= releaseTimes[i] <= 109
 # 	releaseTimes[i] < releaseTimes[i+1]
 # 	keysPressed contains only lowercase English letters.
 #
