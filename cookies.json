@@ -1,64 +1,59 @@
 [
   {
-    "domain": "leetcode.com",
-    "expiry": 1597480260.22222,
-    "httpOnly": false,
-    "name": "csrftoken",
-    "path": "/",
-    "secure": true,
-    "value": "892Sv4YYCYurJN2Q2m7wJrzgrfozHWgZ4fM7qjpbCPa504Gbte1xvm6qdXX5MAzq"
-  },
-  {
-    "domain": "leetcode.com",
+    "domain": ".leetcode.com",
     "httpOnly": true,
     "name": "messages",
     "path": "/",
+    "sameSite": "Lax",
     "secure": true,
     "value": "\"82d48a9f49bfd7c11ee46d07cce9aeb9833deec2$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as bongster.\\\"]]\""
   },
   {
     "domain": "leetcode.com",
-    "expiry": 1566117056,
+    "expiry": 1636873265,
+    "httpOnly": false,
+    "name": "csrftoken",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "iBjHO1ifJk6LKpt42wObce4kCXLrk6BUMEnKaj2uurJjwg8A3edjqHeQZlZoVJdm"
+  },
+  {
+    "domain": ".leetcode.com",
+    "expiry": 1605510064,
     "httpOnly": false,
     "name": "_gid",
     "path": "/",
     "secure": false,
-    "value": "GA1.2.1308724293.1566030640"
+    "value": "GA1.2.383859419.1605423650"
   },
   {
-    "domain": "leetcode.com",
-    "expiry": 1567240255.797122,
+    "domain": ".leetcode.com",
+    "expiry": 1606633263,
     "httpOnly": true,
     "name": "LEETCODE_SESSION",
     "path": "/",
+    "sameSite": "Lax",
     "secure": true,
-    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiMTU0OTA2OCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjQzNWQzZmJmMjY2ZGYyOTQwOWZjOGI5ZDdiOWQ5YjNlOTM1ODFjOGYiLCJpZCI6MTU0OTA2OCwiZW1haWwiOiJib25nc3Rlcjg4QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYm9uZ3N0ZXIiLCJ1c2VyX3NsdWciOiJib25nc3RlciIsImF2YXRhciI6Imh0dHBzOi8vYXNzZXRzLmxlZXRjb2RlLmNvbS91c2Vycy9ib25nc3Rlci9hdmF0YXJfMTU0MjI5MjIwMC5wbmciLCJ0aW1lc3RhbXAiOiIyMDE5LTA4LTE3IDA4OjMwOjUzLjg1NDE1MSswMDowMCIsIklQIjoiNjEuNy4xMzUuMjIiLCJJREVOVElUWSI6IjdiNDExZWE2Y2Y0NDFjMDkyODBiZTU1NWFhYmZlOGNiIiwiX3Nlc3Npb25fZXhwaXJ5IjoxMjA5NjAwfQ.d2Nh5vhmtcehm_dG14dhCiWDyctzVzVytG6z7SwDahE"
+    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiMTU0OTA2OCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjQ0ZDc3ZDdmMmVlN2JlYjIyMGRjZTMzZTBlZDFiMjFmOTNjOTU0YzAiLCJpZCI6MTU0OTA2OCwiZW1haWwiOiJib25nc3Rlcjg4QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYm9uZ3N0ZXIiLCJ1c2VyX3NsdWciOiJib25nc3RlciIsImF2YXRhciI6Imh0dHBzOi8vYXNzZXRzLmxlZXRjb2RlLmNvbS91c2Vycy9ib25nc3Rlci9hdmF0YXJfMTU0MjI5MjIwMC5wbmciLCJyZWZyZXNoZWRfYXQiOjE2MDU0MjM2NjMsImlwIjoiMjIzLjI1LjY1LjE1OSIsImlkZW50aXR5IjoiZmNhYTY5NTc4NjllMzdiMzA3NGZjYTYxYmExNDQ1MzQiLCJzZXNzaW9uX2lkIjo0MTM1MzE5LCJfc2Vzc2lvbl9leHBpcnkiOjEyMDk2MDB9.9rOPqRaiQz1hMUpBh5aNs5xwRtX4PaTCi9tW5Khq4MU"
   },
   {
-    "domain": "leetcode.com",
-    "expiry": 1629102656,
+    "domain": ".leetcode.com",
+    "expiry": 1668495664,
     "httpOnly": false,
     "name": "_ga",
     "path": "/",
     "secure": false,
-    "value": "GA1.2.1495017637.1566030640"
+    "value": "GA1.2.410183434.1605423650"
   },
   {
-    "domain": "leetcode.com",
-    "expiry": 1566030700,
-    "httpOnly": false,
-    "name": "_gat",
-    "path": "/",
-    "secure": false,
-    "value": "1"
-  },
-  {
-    "domain": "leetcode.com",
-    "expiry": 1597566639.960713,
+    "domain": ".leetcode.com",
+    "expiry": 1608015649,
     "httpOnly": true,
     "name": "__cfduid",
     "path": "/",
+    "sameSite": "Lax",
     "secure": false,
-    "value": "db68c386e14791e6e3af5f622e8cf3c021566030639"
+    "value": "d6785a6036b7d75c87f3bc649f97470181605423649"
   }
 ]
