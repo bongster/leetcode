@@ -1,6 +1,6 @@
 certifi==2018.1.18
 chardet==3.0.4
-chromedriver-binary==87.0.4280.20.0
+chromedriver-binary==91.0.4472.19.0
 cssselect==1.0.3
 idna==2.6
 lxml==4.2.1

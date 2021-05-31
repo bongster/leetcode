@@ -1,15 +1,8 @@
 # Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
 #
-# There is only one duplicate number in nums, return this duplicate number.
+# There is only one repeated number in nums, return this repeated number.
 #
-# Follow-ups:
-#
-#
-# 	How can we prove that at least one duplicate number must exist in nums? 
-# 	Can you solve the problem without modifying the array nums?
-# 	Can you solve the problem using only constant, O(1) extra space?
-# 	Can you solve the problem with runtime complexity less than O(n2)?
-#
+# You must solve the problem without modifying the array nums and uses only constant extra space.
 #
 #  
 # Example 1:
@@ -29,10 +22,18 @@
 # Constraints:
 #
 #
-# 	2 <= n <= 3 * 104
+# 	1 <= n <= 105
 # 	nums.length == n + 1
 # 	1 <= nums[i] <= n
 # 	All the integers in nums appear only once except for precisely one integer which appears two or more times.
+#
+#
+#  
+# Follow up:
+#
+#
+# 	How can we prove that at least one duplicate number must exist in nums?
+# 	Can you solve the problem in linear runtime complexity?
 #
 #
 

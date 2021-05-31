@@ -73,39 +73,19 @@
 
 class Solution:
     def romanToInt(self, s: str) -> int:
-        res = 0
-        symbol_map = dict(
-            I=  1,
-            IV = 4,
-            IX = 9,
-            
-            V = 5,
-            
-            X = 10,
-            XL = 40,
-            XC = 90,
-            
-            L = 50,
-            C = 100,
-            CD = 400,
-            CM = 900,
-            
-            D = 500,
-            M = 1000,
-        )
-        
-        while len(s) > 0:
-            first, s = s[0], s[1:]
-            
-            if (len(s) >= 1):
-                second = s[0]
-                if symbol_map.get(first + second):
-                    res += symbol_map[first + second]
-                    s = s[1:]
-                else:
-                    res += symbol_map[first]
-            else:
-                res += symbol_map[first]
-        
-        # print(res)
-        return res
+        translations = {
+            "I": 1,
+            "V": 5,
+            "X": 10,
+            "L": 50,
+            "C": 100,
+            "D": 500,
+            "M": 1000
+        }
+        number = 0
+        s = s.replace("IV", "IIII").replace("IX", "VIIII")
+        s = s.replace("XL", "XXXX").replace("XC", "LXXXX")
+        s = s.replace("CD", "CCCC").replace("CM", "DCCCC")
+        for char in s:
+            number += translations[char]
+        return number

@@ -17,8 +17,9 @@
 # // any modification to nums in your function would be known by the caller.
 # // using the length returned by your function, it prints the first len elements.
 # for (int i = 0; i < len; i++) {
-#     print(nums[i]);
+#     print(nums[i]);
 # }
+#
 #
 #  
 # Example 1:
