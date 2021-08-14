@@ -17,6 +17,7 @@ import html
 
 from pathlib import Path
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from collections import namedtuple, OrderedDict
 
 HOME = Path.cwd()
@@ -204,9 +205,9 @@ class Leetcode:
         options = webdriver.ChromeOptions()
         options.add_argument('headless')
         options.add_argument('--disable-gpu')
-        executable_path = CONFIG.get('driverpath')
         driver = webdriver.Chrome(
-            chrome_options=options, executable_path=executable_path
+            chrome_options=options,
+            executable_path=ChromeDriverManager.install()
         )
         driver.get(LOGIN_URL)
 
@@ -327,7 +328,7 @@ class Leetcode:
             submissions_url = '{}/api/submissions/?format=json&limit={}&offset={}&last_key={}'.format(
                 self.base_url, limit, offset, last_key
             )
-            
+
             resp = self.session.get(submissions_url, proxies=PROXIES)
             # print(submissions_url, ':', resp.status_code)
             assert resp.status_code == 200
@@ -627,4 +628,3 @@ if __name__ == '__main__':
     while True:
         do_job(leetcode)
         time.sleep(24 * 60 * 60)
-
