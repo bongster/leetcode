@@ -30,7 +30,8 @@
 # Constraints:
 #
 #
-# 	2 <= tops.length == bottoms.length <= 2 * 104
+# 	2 <= tops.length <= 2 * 104
+# 	bottoms.length == tops.length
 # 	1 <= tops[i], bottoms[i] <= 6
 #
 #

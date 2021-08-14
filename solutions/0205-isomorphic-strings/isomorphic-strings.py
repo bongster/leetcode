@@ -28,30 +28,15 @@
 
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        if not len(s) and not len(t):
-            return True
-        
-        if not len(s) or not len(t):
-            return False
-        
-        s_map = {}
-        t_map = {}
-        res = True
-        i = 0
-        while i < len(s):
-            sc = s_map.get(s[i])
-            # print(s[i], sc, t[i])
-            if sc and sc != t[i]:
-                res = False
-                break
-            elif not sc and t_map.get(t[i]):
-                res = False
-                break
-            else:
-                s_map[s[i]] = t[i]
-                t_map[t[i]] = s[i]
-                i += 1
-        
-        return res
-                
-            
+        N = len(s)
+        sDict = {}
+        tDict = {}
+        for i in range(N):
+            c1 = s[i]
+            c2 = t[i]
+            if (c1 not in sDict) and (c2 not in tDict):
+                sDict[c1] = c2
+                tDict[c2] = c1
+            elif (c1 not in sDict) or (c2 not in tDict) or (sDict[c1] != c2) or (tDict[c2] != c1):
+                return False
+        return True
