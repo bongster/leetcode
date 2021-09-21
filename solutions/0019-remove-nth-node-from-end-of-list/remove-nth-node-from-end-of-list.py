@@ -58,7 +58,4 @@ class Solution:
             second = second.next
 
         curr.next = second.next
-        print(ans)
-        print(curr)
-        print(second)
         return ans.next
