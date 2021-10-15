@@ -35,31 +35,9 @@
 
 class Solution:
     def climbStairs(self, n: int) -> int:
-        # recursive
-        def solve(remainStairs, n):
-            # print(remainStairs, n)
-            if remainStairs == 0:
-                return 1
-            elif remainStairs < 0:
-                return 0
-            else:
-                return solve(remainStairs - 2, n) + solve(remainStairs -1, n)
-        
-        # res = solve(n, n)
-        # return res
-        
-        # recursive and memorization
-        if n == 1:
-            return 1
-        
-        if n == 2:
-            return 2
-        
-        climb_arr = [0] * (n + 1)
-        climb_arr[1] = 1
-        climb_arr[2] = 2
-        
-        for i in range(3, n + 1):
-            climb_arr[i] = climb_arr[i - 2] + climb_arr[i - 1]
-        
-        return climb_arr[n]
+        dp = [0] * (n + 1)
+        dp[0] = 1
+        dp[1] = 1
+        for i in range(2, n + 1):
+            dp[i] = dp[i -1] + dp[i - 2]
+        return dp[n]
