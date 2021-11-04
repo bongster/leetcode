@@ -37,26 +37,17 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        c = [0, 0, 0]
+        colors = [0, 0, 0]
         for num in nums:
-            c[num] += 1
-        
-        for i in range(1, len(c)):
-            c[i] += c[i - 1]
-        print(c)
-        output = [0] * len(nums)
+            colors[num] += 1
         for i in range(len(nums)):
-            print(i, nums[i], c[nums[i]] -1)
-            output[c[nums[i]] - 1] = nums[i]
-            c[nums[i]] -= 1
+            if colors[0] > 0:
+                nums[i] = 0
+                colors[0] -= 1
+            elif colors[1] > 0:
+                nums[i] = 1
+                colors[1] -= 1
+            else:
+                nums[i] = 2
+                colors[2] -= 1
         
-        for i in range(len(output)):
-            nums[i] = output[i]
-"""
-[2,0,2,1,1,0]
-
-[2, 4, 5]
-[ , , , , ,2]
-2, 5
-
-"""

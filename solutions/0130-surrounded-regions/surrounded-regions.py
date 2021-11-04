@@ -35,36 +35,33 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
-        if not board:
-            return board
         R = len(board)
         C = len(board[0])
-        for i in range(R):
-            if (board[i][0] == 'O'):
-                self.dfs(board, i, 0)
-            if (board[i][C - 1] == 'O'):
-                self.dfs(board, i, C - 1)
-
-        for j in range(C):
-            if (board[0][j] == 'O'):
-                self.dfs(board, 0, j)
-            if (board[R -1][j] == 'O'):
-                self.dfs(board, R - 1, j)
-        print(board)
-        for i in range(R):
-            for j in range(C):
-                if board[i][j] == 'O':
-                    board[i][j] = 'X'
-                if board[i][j] == 'A':
-                    board[i][j] = 'O'
-
-                
-    def dfs(self, board, i, j):
-        R = len(board)
-        C = len(board[0])
-        if i >= 0 and i < R and j >= 0 and j < C and board[i][j] == 'O':
-            board[i][j] = 'A'
-            self.dfs(board, i + 1, j)
-            self.dfs(board, i - 1, j)
-            self.dfs(board, i, j + 1)
-            self.dfs(board, i, j - 1)
+        queue = collections.deque()
+        for x in [0, R -1]:
+            for y in range(C):
+                if board[x][y] == 'O':
+                    board[x][y] = 'G'
+                    queue.append([x, y])
+        for x in range(R):
+            for y in [0, C - 1]:
+                if board[x][y] == 'O':
+                    board[x][y] = 'G'
+                    queue.append([x, y])
+        
+        directions = [(0, 1), (1, 0), (-1, 0), (0, -1)]
+        while len(queue):
+            x, y = queue.popleft()
+            for dx, dy in directions:
+                xx, yy = x + dx, y + dy
+                if 0 <= xx < R and 0 <= yy < C and board[xx][yy] == 'O':
+                    board[xx][yy] = 'G'
+                    queue.append((xx, yy))
+        
+        for x in range(R):
+            for y in range(C):
+                if board[x][y] == 'O':
+                    board[x][y] = 'X'
+                if board[x][y] == 'G':
+                    board[x][y] = 'O'
+        

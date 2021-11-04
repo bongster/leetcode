@@ -44,17 +44,18 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def countNodes(self, root: TreeNode) -> int:
+    def countNodes(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
-        queue = [root]
-        count = 0
+        queue = deque([root])
+        
+        ans = 0
         while len(queue):
-            q, queue = queue[0], queue[1:]
-            count += 1
-            if q.right:
-                queue.append(q.right)
+            q = queue.pop()
+            ans += 1
             if q.left:
                 queue.append(q.left)
-                
-        return count
+            
+            if q.right:
+                queue.append(q.right)
+        return ans

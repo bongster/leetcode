@@ -52,29 +52,19 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def sumNumbers(self, root: TreeNode) -> int:
-        if not root:
-            return 0
-        root.parent = None
-        queue = [root]
+    def sumNumbers(self, root: Optional[TreeNode]) -> int:
+        stack = []
+        stack.append([root, str(root.val)])
+        
         res = 0
-        while len(queue):
-            q, queue = queue[0], queue[1:]
-            if q.right:
-                q.right.parent = q
-                queue.append(q.right)
-                
+        while len(stack):
+            q, v = stack.pop()
+            if not (q.left or q.right):
+                res += int(v)
+            
             if q.left:
-                q.left.parent = q
-                queue.append(q.left)
-
-            if not q.left and not q.right:
-                s = ""
-                curr = q
-                while curr:
-                    s = str(curr.val) + s
-                    curr = curr.parent
-                res += int(s)
+                stack.append([q.left, v + str(q.left.val)])
+            if q.right:
+                stack.append([q.right, v + str(q.right.val)])
         
         return res
-                
