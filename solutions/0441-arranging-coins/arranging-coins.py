@@ -30,14 +30,8 @@
 
 class Solution:
     def arrangeCoins(self, n: int) -> int:
-        if n == 1:
-            return 1
-        i = 1
-        while i < n:
-            n -= i
+        i = 0
+        while n > i:
             i += 1
-        print(i, n)
-        if i == n:
-            return i
-        else:
-            return i - 1
+            n -= i
+        return i

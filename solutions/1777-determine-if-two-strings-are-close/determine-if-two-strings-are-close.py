@@ -48,14 +48,6 @@
 # Apply Operation 2: "baaccc" -> "abbccc"
 #
 #
-# Example 4:
-#
-#
-# Input: word1 = "cabbba", word2 = "aabbss"
-# Output: false
-# Explanation: It is impossible to attain word2 from word1, or vice versa, in any amount of operations.
-#
-#
 #  
 # Constraints:
 #

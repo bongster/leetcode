@@ -22,24 +22,6 @@
 # Example 3:
 #
 #
-# Input: num = "105", target = 5
-# Output: ["1*0+5","10-5"]
-# Explanation: Both "1*0+5" and "10-5" evaluate to 5.
-# Note that "1-05" is not a valid expression because the 5 has a leading zero.
-#
-#
-# Example 4:
-#
-#
-# Input: num = "00", target = 0
-# Output: ["0*0","0+0","0-0"]
-# Explanation: "0*0", "0+0", and "0-0" all evaluate to 0.
-# Note that "00" is not a valid expression because the 0 has a leading zero.
-#
-#
-# Example 5:
-#
-#
 # Input: num = "3456237490", target = 9191
 # Output: []
 # Explanation: There are no expressions that can be created from "3456237490" to evaluate to 9191.

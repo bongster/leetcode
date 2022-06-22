@@ -18,7 +18,7 @@
 #
 # It is possible to use both of these rules at the same time.
 #
-# Given an array of strings emails where we send one email to each email[i], return the number of different addresses that actually receive mails.
+# Given an array of strings emails where we send one email to each emails[i], return the number of different addresses that actually receive mails.
 #
 #  
 # Example 1:
@@ -42,10 +42,11 @@
 #
 # 	1 <= emails.length <= 100
 # 	1 <= emails[i].length <= 100
-# 	email[i] consist of lowercase English letters, '+', '.' and '@'.
+# 	emails[i] consist of lowercase English letters, '+', '.' and '@'.
 # 	Each emails[i] contains exactly one '@' character.
 # 	All local and domain names are non-empty.
 # 	Local names do not start with a '+' character.
+# 	Domain names end with the ".com" suffix.
 #
 #
 

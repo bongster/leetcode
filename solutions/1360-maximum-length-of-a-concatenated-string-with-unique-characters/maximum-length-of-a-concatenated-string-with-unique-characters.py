@@ -36,14 +36,6 @@
 # Explanation: The only string in arr has all 26 characters.
 #
 #
-# Example 4:
-#
-#
-# Input: arr = ["aa","bb"]
-# Output: 0
-# Explanation: Both strings in arr do not have unique characters, thus there are no valid concatenations.
-#
-#
 #  
 # Constraints:
 #

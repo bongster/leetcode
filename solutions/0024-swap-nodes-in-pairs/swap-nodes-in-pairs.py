@@ -39,25 +39,14 @@
 #         self.next = next
 class Solution:
     def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        curr = head
-        stack = deque()
-        while curr:
-            stack.append(ListNode(curr.val))
-            curr = curr.next
-        root = ListNode()
-        
-        x = root
-        while len(stack):
-            y = stack.popleft()
-            z = None
-            if len(stack):
-                z = stack.popleft()
-            if z:
-                x.next = z
-                x = x.next
-            if y:
-                x.next = y
-                x = x.next
-        
-        return root.next
-            
+        dummy = ListNode(-1)
+        dummy.next = head
+        curr = dummy
+        while curr.next and curr.next.next:
+            first = curr.next
+            second = curr.next.next
+            curr.next = second
+            first.next = second.next
+            second.next = first
+            curr = curr.next.next
+        return dummy.next

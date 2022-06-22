@@ -36,24 +36,18 @@
 
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
-        '''
-        1, 2, 3, 4 -> pop (4)
-        push (5)
-        1, 2, 3, 5 -> pop(5)
-        1, 2, 3
-        '''
         stack = []
+        i = 0
+        j = 0
+        while i < len(pushed) and j < len(popped):
+            stack.append(pushed[i])
+            i += 1
+            
+            # print(stack, i, j)
+            while j < len(popped) and len(stack) and popped[j] == stack[-1]:
+                j += 1
+                stack.pop()
         
-        while len(popped):
-            if len(stack) and stack[-1] == popped[0]:
-                stack = stack[0:-1]
-                popped = popped[1:]
-            elif len(pushed):
-                val, pushed = pushed[0], pushed[1:]
-                stack.append(val)
-            else:
-                return False
-        
-        return True
-
+        # print(i, j, pushed, popped, stack)
+        return i == len(pushed) and j == len(popped) and not len(stack)
             

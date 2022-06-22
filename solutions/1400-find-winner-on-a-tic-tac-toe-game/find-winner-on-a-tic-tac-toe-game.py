@@ -38,14 +38,6 @@
 # Explanation: The game ends in a draw since there are no moves to make.
 #
 #
-# Example 4:
-#
-#
-# Input: moves = [[0,0],[1,1]]
-# Output: "Pending"
-# Explanation: The game has not finished yet.
-#
-#
 #  
 # Constraints:
 #

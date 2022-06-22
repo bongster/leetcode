@@ -32,19 +32,11 @@
 # Explanation: Use double, decrement and double {3 -> 6 -> 5 -> 10}.
 #
 #
-# Example 4:
-#
-#
-# Input: startValue = 1024, target = 1
-# Output: 1023
-# Explanation: Use decrement operations 1023 times.
-#
-#
 #  
 # Constraints:
 #
 #
-# 	1 <= x, y <= 109
+# 	1 <= startValue, target <= 109
 #
 #
 

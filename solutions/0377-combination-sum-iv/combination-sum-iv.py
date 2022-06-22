@@ -1,6 +1,6 @@
 # Given an array of distinct integers nums and a target integer target, return the number of possible combinations that add up to target.
 #
-# The answer is guaranteed to fit in a 32-bit integer.
+# The test cases are generated so that the answer can fit in a 32-bit integer.
 #
 #  
 # Example 1:

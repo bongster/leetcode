@@ -22,19 +22,6 @@
 # Explanation: There is no way to replace a single character to make "a" not a palindrome, so return an empty string.
 #
 #
-# Example 3:
-#
-#
-# Input: palindrome = "aa"
-# Output: "ab"
-#
-# Example 4:
-#
-#
-# Input: palindrome = "aba"
-# Output: "abb"
-#
-#
 #  
 # Constraints:
 #

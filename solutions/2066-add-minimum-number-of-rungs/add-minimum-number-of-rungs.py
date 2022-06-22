@@ -36,15 +36,6 @@
 # The ladder will now have rungs at [1,3,4,6,7].
 #
 #
-# Example 4:
-#
-#
-# Input: rungs = [5], dist = 10
-# Output: 0
-# Explanation:
-# This ladder can be climbed without adding additional rungs.
-#
-#
 #  
 # Constraints:
 #

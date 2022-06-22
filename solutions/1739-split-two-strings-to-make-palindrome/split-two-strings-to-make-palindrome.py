@@ -21,8 +21,8 @@
 # Example 2:
 #
 #
-# Input: a = "abdef", b = "fecab"
-# Output: true
+# Input: a = "xbdef", b = "xecab"
+# Output: false
 #
 #
 # Example 3:
@@ -34,13 +34,6 @@
 # aprefix = "ula", asuffix = "cfd"
 # bprefix = "jiz", bsuffix = "alu"
 # Then, aprefix + bsuffix = "ula" + "alu" = "ulaalu", which is a palindrome.
-#
-#
-# Example 4:
-#
-#
-# Input: a = "xbdef", b = "xecab"
-# Output: false
 #
 #
 #  

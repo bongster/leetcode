@@ -25,15 +25,20 @@
 
 
 class Solution:
-    memories = {}
     def numTrees(self, n: int) -> int:
-        if n == 0 or n == 1:
-            return 1
-        if self.memories.get(n):
-            return self.memories.get(n)
-        count = 0
         
-        for i in range(1, n + 1):
-            count += self.numTrees(i - 1) * self.numTrees(n - i);
-        self.memories[n] = count
-        return count
+        if n == 1 or n == 0:
+            return 1
+        
+        dp = [1, 1]
+        
+        for i in range(2, n+1):
+            
+            numTreesI = 0
+            for nLeft in range(i):
+                nRight = i - 1 - nLeft
+                numTreesI += dp[nLeft] * dp[nRight]
+            
+            dp.append(numTreesI)
+        
+        return dp[-1]

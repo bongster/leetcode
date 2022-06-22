@@ -32,10 +32,10 @@
 # Constraints:
 #
 #
-# 	1 <= nums.length <= 200
+# 	1 <= nums.length <= 50
 # 	-106 <= nums[i] <= 106
 # 	All the elements of nums are unique.
-# 	At most 5 * 104 calls in total will be made to reset and shuffle.
+# 	At most 104 calls in total will be made to reset and shuffle.
 #
 #
 

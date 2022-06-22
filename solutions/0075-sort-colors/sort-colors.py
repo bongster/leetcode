@@ -6,17 +6,18 @@
 #
 #  
 # Example 1:
+#
+#
 # Input: nums = [2,0,2,1,1,0]
 # Output: [0,0,1,1,2,2]
+#
+#
 # Example 2:
+#
+#
 # Input: nums = [2,0,1]
 # Output: [0,1,2]
-# Example 3:
-# Input: nums = [0]
-# Output: [0]
-# Example 4:
-# Input: nums = [1]
-# Output: [1]
+#
 #
 #  
 # Constraints:
@@ -24,7 +25,7 @@
 #
 # 	n == nums.length
 # 	1 <= n <= 300
-# 	nums[i] is 0, 1, or 2.
+# 	nums[i] is either 0, 1, or 2.
 #
 #
 #  
@@ -37,17 +38,9 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        colors = [0, 0, 0]
-        for num in nums:
-            colors[num] += 1
-        for i in range(len(nums)):
-            if colors[0] > 0:
-                nums[i] = 0
-                colors[0] -= 1
-            elif colors[1] > 0:
-                nums[i] = 1
-                colors[1] -= 1
-            else:
-                nums[i] = 2
-                colors[2] -= 1
         
+        res = []
+        for i, v in sorted(collections.Counter(nums).items(), key=lambda x: x[0]):
+            res.extend([i] * v)
+        for i, v in enumerate(res):
+            nums[i] = v

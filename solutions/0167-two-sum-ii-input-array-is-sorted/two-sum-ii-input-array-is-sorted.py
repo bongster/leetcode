@@ -4,6 +4,8 @@
 #
 # The tests are generated such that there is exactly one solution. You may not use the same element twice.
 #
+# Your solution must use only constant extra space.
+#
 #  
 # Example 1:
 #

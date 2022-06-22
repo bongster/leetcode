@@ -34,15 +34,6 @@
 # Explanation: The numbers in s are: 7, 51, 50, 60. They are not strictly increasing.
 #
 #
-# Example 4:
-#
-#
-# Input: s = "4 5 11 26"
-# Output: true
-# Explanation: The numbers in s are: 4, 5, 11, 26.
-# They are strictly increasing from left to right: 4 < 5 < 11 < 26.
-#
-#
 #  
 # Constraints:
 #

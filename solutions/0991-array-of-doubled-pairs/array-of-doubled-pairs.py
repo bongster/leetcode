@@ -23,13 +23,6 @@
 # Explanation: We can take two groups, [-2,-4] and [2,4] to form [-2,-4,2,4] or [2,4,-2,-4].
 #
 #
-# Example 4:
-#
-#
-# Input: arr = [1,2,4,16,8,4]
-# Output: false
-#
-#
 #  
 # Constraints:
 #

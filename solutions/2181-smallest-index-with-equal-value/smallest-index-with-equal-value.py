@@ -36,14 +36,6 @@
 # Explanation: No index satisfies i mod 10 == nums[i].
 #
 #
-# Example 4:
-#
-#
-# Input: nums = [2,1,3,5,2]
-# Output: 1
-# Explanation: 1 is the only index with i mod 10 == nums[i].
-#
-#
 #  
 # Constraints:
 #

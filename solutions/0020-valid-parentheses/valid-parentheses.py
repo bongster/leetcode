@@ -29,20 +29,6 @@
 # Output: false
 #
 #
-# Example 4:
-#
-#
-# Input: s = "([)]"
-# Output: false
-#
-#
-# Example 5:
-#
-#
-# Input: s = "{[]}"
-# Output: true
-#
-#
 #  
 # Constraints:
 #
@@ -55,25 +41,19 @@
 
 class Solution:
     def isValid(self, s: str) -> bool:
-        if not len(s):
-            return True
-        
         stack = []
         for c in s:
             if not len(stack):
                 stack.append(c)
                 continue
             
-            last, stack = stack[len(stack) -1], stack[:len(stack) - 1]
-            if last == '(' and c == ')':
-                pass
-            elif last == '{' and c == '}':
-                pass
-            elif last == '[' and c == ']':
-                pass
+            if c == ')' and stack[-1] == '(':
+                stack.pop()
+            elif c == ']' and stack[-1] == '[':
+                stack.pop()
+            elif c == '}' and stack[-1] == '{':
+                stack.pop()
             else:
-                stack.append(last)
                 stack.append(c)
         
-        return False if len(stack) > 0 else True
-
+        return not len(stack)

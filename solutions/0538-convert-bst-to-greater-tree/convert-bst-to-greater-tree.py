@@ -23,20 +23,6 @@
 # Output: [1,null,1]
 #
 #
-# Example 3:
-#
-#
-# Input: root = [1,0,2]
-# Output: [3,3,2]
-#
-#
-# Example 4:
-#
-#
-# Input: root = [3,2,4,1]
-# Output: [7,9,4,10]
-#
-#
 #  
 # Constraints:
 #

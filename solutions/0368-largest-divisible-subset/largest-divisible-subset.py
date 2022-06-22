@@ -34,28 +34,24 @@
 #
 
 
-class Solution(object):
-    def largestDivisibleSubset(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
-        n = len(nums)
-        if n <= 1:
-            return nums
+class Solution:
+    def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
         nums.sort()
-        dp = [(0, 0)] * n
-        dp[0] = (1, 0)
-        maxIndex, maxVal = 0, 1
+        n = len(nums)
+        dp = [1] * n
+        path = [-1] * n
+        iMax = 0
         for i in range(1, n):
-            dp[i] = max((dp[j][0] + 1, j) for j in range(i + 1) if nums[i] % nums[j] is 0)
-            print(dp[i], dp[i][1], dp[i][0])
-            if dp[i][0] > maxVal:
-                maxIndex, maxVal = i, dp[i][0]
-        print(dp)
-        i, lds = maxIndex, [nums[maxIndex]]
-        print(i, lds)
-        while i != dp[i][1]:
-            i = dp[i][1]
-            lds.append(nums[i])
-        return sorted(lds)
+            for j in range(i):
+                if nums[i] % nums[j] == 0 and dp[i] < dp[j] + 1:
+                    dp[i] = dp[j] + 1
+                    path[i] = j
+                    
+            if dp[iMax] < dp[i]:
+                iMax = i
+                
+        ans = []
+        while iMax >= 0:
+            ans.append(nums[iMax])
+            iMax = path[iMax]
+        return ans[::-1]

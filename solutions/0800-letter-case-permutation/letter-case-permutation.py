@@ -1,6 +1,6 @@
-# Given a string s, we can transform every letter individually to be lowercase or uppercase to create another string.
+# Given a string s, you can transform every letter individually to be lowercase or uppercase to create another string.
 #
-# Return a list of all possible strings we could create. You can return the output in any order.
+# Return a list of all possible strings we could create. Return the output in any order.
 #
 #  
 # Example 1:
@@ -17,26 +17,12 @@
 # Output: ["3z4","3Z4"]
 #
 #
-# Example 3:
-#
-#
-# Input: s = "12345"
-# Output: ["12345"]
-#
-#
-# Example 4:
-#
-#
-# Input: s = "0"
-# Output: ["0"]
-#
-#
 #  
 # Constraints:
 #
 #
-# 	s will be a string with length between 1 and 12.
-# 	s will consist only of letters or digits.
+# 	1 <= s.length <= 12
+# 	s consists of lowercase English letters, uppercase English letters, and digits.
 #
 #
 

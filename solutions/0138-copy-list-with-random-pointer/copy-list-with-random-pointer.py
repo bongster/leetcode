@@ -39,20 +39,12 @@
 # Output: [[3,null],[3,0],[3,null]]
 #
 #
-# Example 4:
-#
-#
-# Input: head = []
-# Output: []
-# Explanation: The given linked list is empty (null pointer), so return null.
-#
-#
 #  
 # Constraints:
 #
 #
 # 	0 <= n <= 1000
-# 	-10000 <= Node.val <= 10000
+# 	-104 <= Node.val <= 104
 # 	Node.random is null or is pointing to some node in the linked list.
 #
 #
@@ -68,13 +60,19 @@ class Node:
 """
 
 class Solution:
-    def copyRandomList(self, head: 'Node') -> 'Node':
-        dic = collections.defaultdict(lambda: Node(0))
-        dic[None] = None
-        n = head
-        while n:
-            dic[n].val = n.val
-            dic[n].next = dic[n.next]
-            dic[n].random = dic[n.random]
-            n = n.next
-        return dic[head]
+    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
+        if not head:
+            return head
+        m = {}
+        node = head
+        while node:
+            m[node] = Node(node.val)
+            node = node.next
+        node = head
+        while node:
+            if node in m and node.next:
+                m[node].next = m[node.next]
+            if node.random in m and node.random:
+                m[node].random = m[node.random]
+            node = node.next
+        return m[head]

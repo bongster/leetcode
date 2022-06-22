@@ -29,20 +29,6 @@
 # Explanation: "you" is not a prefix of any word in the sentence.
 #
 #
-# Example 4:
-#
-#
-# Input: sentence = "i use triple pillow", searchWord = "pill"
-# Output: 4
-#
-#
-# Example 5:
-#
-#
-# Input: sentence = "hello from the other side", searchWord = "they"
-# Output: -1
-#
-#
 #  
 # Constraints:
 #

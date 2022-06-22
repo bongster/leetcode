@@ -16,27 +16,6 @@
 # Output: false
 #
 #
-# Example 3:
-#
-#
-# Input: c = 4
-# Output: true
-#
-#
-# Example 4:
-#
-#
-# Input: c = 2
-# Output: true
-#
-#
-# Example 5:
-#
-#
-# Input: c = 1
-# Output: true
-#
-#
 #  
 # Constraints:
 #
