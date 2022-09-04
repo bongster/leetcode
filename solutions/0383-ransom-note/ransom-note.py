@@ -25,13 +25,11 @@
 
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        ransomNote = [r for r in ransomNote]
-        magazine = [r for r in magazine]
-        while len(ransomNote):
-            f, ransomNote = ransomNote[0], ransomNote[1:]
-            try:
-                index = magazine.index(f)
-                del magazine[index]
-            except:
+        mc = collections.Counter(magazine)
+        rc = collections.Counter(ransomNote)
+        for k, v in rc.items():
+            if k not in mc or mc[k] < v:
                 return False
+        
         return True
+        

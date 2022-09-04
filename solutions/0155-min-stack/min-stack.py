@@ -10,6 +10,8 @@
 # 	int getMin() retrieves the minimum element in the stack.
 #
 #
+# You must implement a solution with O(1) time complexity for each function.
+#
 #  
 # Example 1:
 #

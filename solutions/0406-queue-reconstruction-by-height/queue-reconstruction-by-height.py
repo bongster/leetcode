@@ -39,17 +39,25 @@
 
 class Solution:
     def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:
-        d = {}
+#         TLE
+#         people = sorted(people, key=lambda x: x[0])
+#         visited = [False] * len(people)
+#         ans = []
+#         while len(ans) < len(people):
+#             for i in range(len(people)):
+#                 if visited[i]:
+#                     continue
+#                 if len(list(filter(lambda x: x[0] >= people[i][0], ans))) == people[i][1]:
+#                     visited[i] = True
+#                     ans.append(people[i])
+#                     break
+#         return ans
+        d = collections.defaultdict(list)
         for h, k in people:
-            if h in d:
-                d[h].append([h, k])
-            else:
-                d[h] = [[h, k]]
-        
+            d[h].append([h, k])
         res = []
         for h in sorted(d.keys(), reverse=True):
             group = sorted(d[h])
             for h, k in group:
                 res.insert(k, [h, k])
-        print(res)
         return res

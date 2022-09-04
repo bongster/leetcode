@@ -1,7 +1,7 @@
 [
   {
     "domain": ".leetcode.com",
-    "expiry": 1971248122,
+    "expiry": 1696864061,
     "httpOnly": false,
     "name": "87b5a3c3f1a55520_gr_cs1",
     "path": "/",
@@ -10,12 +10,21 @@
   },
   {
     "domain": ".leetcode.com",
-    "expiry": 1655889922,
+    "expiry": 1662305861,
+    "httpOnly": false,
+    "name": "87b5a3c3f1a55520_gr_session_id_53897199-3583-41f8-b292-a45cfa7a127d",
+    "path": "/",
+    "secure": false,
+    "value": "true"
+  },
+  {
+    "domain": ".leetcode.com",
+    "expiry": 1662305861,
     "httpOnly": false,
     "name": "87b5a3c3f1a55520_gr_last_sent_sid_with_cs1",
     "path": "/",
     "secure": false,
-    "value": "a9e0999f-340a-4f5f-9f25-e90bb700ab60"
+    "value": "53897199-3583-41f8-b292-a45cfa7a127d"
   },
   {
     "domain": ".leetcode.com",
@@ -28,26 +37,26 @@
   },
   {
     "domain": ".leetcode.com",
-    "expiry": 1971248122,
+    "expiry": 1696864061,
     "httpOnly": false,
     "name": "gr_user_id",
     "path": "/",
     "secure": false,
-    "value": "5efdb3b4-3b16-45d7-9dbb-f425b05958e6"
+    "value": "09be202e-cdea-483c-af55-73e6560492e0"
   },
   {
     "domain": "leetcode.com",
-    "expiry": 1687337721,
+    "expiry": 1693753661,
     "httpOnly": false,
     "name": "csrftoken",
     "path": "/",
     "sameSite": "Lax",
     "secure": true,
-    "value": "QCP1MHCLZgT3cc8MyADVAIO1vpqJ6Pd4vxeCiIwj9UYfaoNqwyClOkUFlrZNeqgo"
+    "value": "GUlSHs4H1XX7oPzkRYeOChyBp8yZ5ry6ym0iMjUyiSqPEIBHqdhw4Jrw259guph1"
   },
   {
     "domain": ".leetcode.com",
-    "expiry": 1971248122,
+    "expiry": 1696864061,
     "httpOnly": false,
     "name": "87b5a3c3f1a55520_gr_last_sent_cs1",
     "path": "/",
@@ -56,53 +65,44 @@
   },
   {
     "domain": ".leetcode.com",
-    "expiry": 1655889922,
-    "httpOnly": false,
-    "name": "87b5a3c3f1a55520_gr_session_id_a9e0999f-340a-4f5f-9f25-e90bb700ab60",
-    "path": "/",
-    "secure": false,
-    "value": "true"
-  },
-  {
-    "domain": ".leetcode.com",
-    "expiry": 1655889922,
+    "expiry": 1662305861,
     "httpOnly": false,
     "name": "87b5a3c3f1a55520_gr_session_id",
     "path": "/",
     "secure": false,
-    "value": "a9e0999f-340a-4f5f-9f25-e90bb700ab60"
+    "value": "53897199-3583-41f8-b292-a45cfa7a127d"
   },
   {
     "domain": ".leetcode.com",
-    "expiry": 1655974520,
+    "expiry": 1662390460,
     "httpOnly": false,
     "name": "_gid",
     "path": "/",
     "secure": false,
-    "value": "GA1.2.927544706.1655888095"
+    "value": "GA1.2.248404630.1662304046"
   },
   {
     "domain": ".leetcode.com",
-    "expiry": 1657097718,
+    "expiry": 1663513659,
     "httpOnly": true,
     "name": "LEETCODE_SESSION",
     "path": "/",
     "sameSite": "Lax",
     "secure": true,
-    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiMTU0OTA2OCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjQ0ZDc3ZDdmMmVlN2JlYjIyMGRjZTMzZTBlZDFiMjFmOTNjOTU0YzAiLCJpZCI6MTU0OTA2OCwiZW1haWwiOiJib25nc3Rlcjg4QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYm9uZ3N0ZXIiLCJ1c2VyX3NsdWciOiJib25nc3RlciIsImF2YXRhciI6Imh0dHBzOi8vYXNzZXRzLmxlZXRjb2RlLmNvbS91c2Vycy9ib25nc3Rlci9hdmF0YXJfMTU0MjI5MjIwMC5wbmciLCJyZWZyZXNoZWRfYXQiOjE2NTU4ODgxMTgsImlwIjoiMjIzLjI1LjY1LjE1OSIsImlkZW50aXR5IjoiYzBhOWJkOWRmMWZiZDBkNDRkNTJjNzhjMjU4YTkyNGMiLCJzZXNzaW9uX2lkIjoyMzQwNTcxNSwiX3Nlc3Npb25fZXhwaXJ5IjoxMjA5NjAwfQ.J-lcRPBDMecQv5GFahRiycAr_3MJovBz3VKD2liI3tA"
+    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiMTU0OTA2OCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjQ0ZDc3ZDdmMmVlN2JlYjIyMGRjZTMzZTBlZDFiMjFmOTNjOTU0YzAiLCJpZCI6MTU0OTA2OCwiZW1haWwiOiJib25nc3Rlcjg4QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYm9uZ3N0ZXIiLCJ1c2VyX3NsdWciOiJib25nc3RlciIsImF2YXRhciI6Imh0dHBzOi8vYXNzZXRzLmxlZXRjb2RlLmNvbS91c2Vycy9ib25nc3Rlci9hdmF0YXJfMTU0MjI5MjIwMC5wbmciLCJyZWZyZXNoZWRfYXQiOjE2NjIzMDQwNTksImlwIjoiMjE5Ljc1LjQyLjE0IiwiaWRlbnRpdHkiOiJiM2RiYjY4YTc5Y2VkY2MwNWIxNzQ5YWMxNzhjZGY3NyIsInNlc3Npb25faWQiOjI3MTY2MDIwLCJfc2Vzc2lvbl9leHBpcnkiOjEyMDk2MDB9.xFFpfOZrqWZMEC5ckOyAvghPYsLSsnN9AG4dRme53j8"
   },
   {
     "domain": ".leetcode.com",
-    "expiry": 1718960120,
+    "expiry": 1696864060,
     "httpOnly": false,
     "name": "_ga",
     "path": "/",
     "secure": false,
-    "value": "GA1.2.2052345290.1655888095"
+    "value": "GA1.2.659906056.1662304046"
   },
   {
     "domain": ".leetcode.com",
-    "expiry": 1655888155,
+    "expiry": 1662304105,
     "httpOnly": false,
     "name": "_gat",
     "path": "/",

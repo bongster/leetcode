@@ -2,6 +2,8 @@
 #
 # Return the decimal value of the number in the linked list.
 #
+# The most significant bit is at the head of the linked list.
+#
 #  
 # Example 1:
 #
@@ -23,8 +25,8 @@
 #
 #
 # 	The Linked List is not empty.
-# 	Number of nodes will not exceed 30.
-# 	Each node's value is either 0 or 1.
+# 	Number of nodes will not exceed 30.
+# 	Each node's value is either 0 or 1.
 #
 #
 

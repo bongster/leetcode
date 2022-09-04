@@ -41,36 +41,12 @@
 #
 
 
-class HeapSort:
-    def __init__(self, heap =[]):
-        self.heap = heap
-        
-    def heapify(self, n, i):
-        largest = i
-        l = 2 * i + 1
-        r = 2 * i + 2
-        
-        if l < n and self.heap[largest] < self.heap[l]:
-            largest = l
-        
-        if r < n and self.heap[largest] < self.heap[r]:
-            largest = r
-        if largest != i:
-            self.heap[i], self.heap[largest] = self.heap[largest], self.heap[i]
-            self.heapify(n, largest)
-    def sort(self):
-        n = len(self.heap)
-        for i in range(n //2 -1, -1, -1):
-            self.heapify(n, i)
-        for i in range(n -1, 0, -1):
-            self.heap[i], self.heap[0] = self.heap[0], self.heap[i]
-            self.heapify(i, 0)
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
-        arr = [matrix[i][j] for j in range(len(matrix[0])) for i in range(len(matrix))]
-        # print(arr)
-        h = HeapSort(arr)
-        h.sort()
-        return h.heap[k -1]
-        
-        
+        heap = []
+        for i in range(len(matrix)):
+            for j in range(len(matrix[i])):
+                heapq.heappush(heap, matrix[i][j] * -1)
+            while len(heap) > k:
+                heapq.heappop(heap)
+        return heapq.heappop(heap) * -1
